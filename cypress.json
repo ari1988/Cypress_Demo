@@ -1,0 +1,10 @@
+{
+    "baseUrl": "https://www.networksolutions.com/",
+    "chromeWebSecurity": false,
+    "pageLoadTimeout": 60000,
+    "video": true,
+    "viewportHeight": 1000,
+    "viewportWidth": 1620,
+    "watchForFileChanges": false,
+    "waitForAnimations":false
+}

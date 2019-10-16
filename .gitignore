@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+/dev/node_modules
+package-lock.json
+test-output/
+# misc
+.idea
+.env
+npm-debug.log*

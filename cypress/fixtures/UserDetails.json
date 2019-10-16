@@ -1,0 +1,20 @@
+{
+            "validation": "Place Front Order Test",
+            "firstName": "QA",
+            "lastName": "Automation",
+            "phone": "1015556752",
+            "address": "123 Fake St.",
+            "state": "NY",
+            "city": "Springfield",
+            "country": "United States",
+            "zipCode": "10012",
+            "securityQuestion": "Who was your childhood hero?",
+            "securityAnswer": "Batman",
+            "genericPassword": "Password1234",
+            "email": "qaauto@web.com",
+            "ccNumber": "4111111111111111",
+            "cvv": "123",
+            "expireYear" : "2020",
+            "expireMonth" : "8",
+            "payment" : "Visa"
+}

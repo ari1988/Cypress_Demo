@@ -9,6 +9,7 @@ describe('Search For a Domain',() => {
             return false
         })        
         cy.title().should('include',"QA")
+    
     });
 
     it('Creates a New User',() => {
@@ -20,6 +21,8 @@ describe('Search For a Domain',() => {
         cy.get('[name="challengeQuestion"]').select(userData.securityQuestion)
         cy.get('[name="sfUser.challengeAnswer"]').type(userData.securityAnswer)
         cy.get('[alt="SAVE"]').click({force:true})
+       
+        
     });
 
     it('Set Up New user', () => {
@@ -33,7 +36,7 @@ describe('Search For a Domain',() => {
         cy.get('[name="sfUser.email"]').type(userData.email)
         cy.get('[name="sfUser.phoneNum"]').type(userData.phone)
         cy.get('[alt="SAVE"]').click({force:true})
-        
+    
 
     });
 

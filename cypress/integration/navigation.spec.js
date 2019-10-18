@@ -37,7 +37,7 @@ describe('Search For a Domain',() => {
         cy.get('[name="sfUser.phoneNum"]').type(userData.phone)
         cy.get('[alt="SAVE"]').click({force:true})
     
-
+        cy.clearCookies()
     });
 
 

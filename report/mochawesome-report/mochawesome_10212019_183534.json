@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2019-10-21T12:59:15.621Z",
-    "end": "2019-10-21T12:59:15.684Z",
-    "duration": 63,
+    "start": "2019-10-21T13:05:34.827Z",
+    "end": "2019-10-21T13:05:34.904Z",
+    "duration": 77,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "cd93b01a-e683-42f3-bf0b-2ed982c5591f",
+      "uuid": "27854c5c-51fb-4502-8248-019f76c9c86d",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -29,7 +29,7 @@
           "title": "basic verification",
           "fullTitle": " basic verification",
           "timedOut": null,
-          "duration": 50,
+          "duration": 63,
           "state": "passed",
           "speed": "medium",
           "pass": true,
@@ -38,20 +38,20 @@
           "context": null,
           "code": "var result = userData.find(function (_ref) {\n  var name = _ref.name;\n  return name === 'Leanne Graham';\n});\ncy.log(result.phone);",
           "err": {},
-          "uuid": "fe3e7f69-3871-4cc7-b2f2-2a8431c64ed7",
-          "parentUUID": "cd93b01a-e683-42f3-bf0b-2ed982c5591f",
+          "uuid": "3cf4d795-3ae1-4fcd-9a4a-49c783ddf1cb",
+          "parentUUID": "27854c5c-51fb-4502-8248-019f76c9c86d",
           "isHook": false,
           "skipped": false
         }
       ],
       "suites": [],
       "passes": [
-        "fe3e7f69-3871-4cc7-b2f2-2a8431c64ed7"
+        "3cf4d795-3ae1-4fcd-9a4a-49c783ddf1cb"
       ],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 50,
+      "duration": 63,
       "root": true,
       "rootEmpty": false,
       "_timeout": 2000

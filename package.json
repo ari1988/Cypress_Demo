@@ -6,8 +6,8 @@
   "scripts": {
     "cy:run": "regedit.exe /s proxyEnable.reg && npx cypress run",
     "cy:open": "regedit.exe /s proxyEnable.reg && npx cypress open",
-    "report-combine": "npx mochawesome-merge --reportDir report/mochawesome-report > report/mochawesome.json",
-    "report-generate": "npx mochawesome-report-generator report/mochawesome.json",
+    "report-combine": "npx mochawesome-merge --reportDir report/mochawesome-report > mochawesome.json",
+    "report-generate": "npx mochawesome-report-generator mochawesome.json",
     "cy:report": "node cypress_runner.js && npm run report-combine && npm run report-generate"
   },
   "keywords": [],

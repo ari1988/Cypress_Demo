@@ -10,3 +10,4 @@ npm-debug.log*
 /cypress/videos
 cypress/report/
 /mochawesome-report
+mochawesome.json

@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2019-10-21T13:05:32.708Z",
-    "end": "2019-10-21T13:05:33.141Z",
-    "duration": 433,
+    "start": "2019-10-21T13:46:49.703Z",
+    "end": "2019-10-21T13:46:50.191Z",
+    "duration": 488,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "71fe2ff1-6fdc-4f92-95be-39b3f1032655",
+      "uuid": "5c2b3a8d-5c4b-4131-be7e-d0bd9f6e26fc",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -29,7 +29,7 @@
           "title": "test",
           "fullTitle": " test",
           "timedOut": null,
-          "duration": 385,
+          "duration": 426,
           "state": "passed",
           "speed": "slow",
           "pass": true,
@@ -38,20 +38,20 @@
           "context": null,
           "code": "var counter = 0;\ncy.document().then(function (doc) {\n  doc.body.innerHTML = \"\\n           <button id=\\\"elementId_0\\\">Hello</button>\\n           <button id=\\\"elementId_1\\\">Hello</button>\\n           <button id=\\\"elementId_2\\\">Hello</button>\\n           <button id=\\\"elementId_3\\\">Hello</button>\\n           <button id=\\\"elementId_4\\\">Hello</button>\\n        \";\n  Cypress.$('button').on('click', function () {\n    return counter++;\n  });\n});\nfor (var i = 0; i < 5; i++) {\n  cy.get('#elementId_' + i).click();\n}\ncy.then(function () {\n  expect(counter).to.eq(5);\n});",
           "err": {},
-          "uuid": "4bb86dde-f603-43c0-9b7f-92839229199d",
-          "parentUUID": "71fe2ff1-6fdc-4f92-95be-39b3f1032655",
+          "uuid": "2f2d9e26-2b81-4c9e-9c72-9e463e632dd3",
+          "parentUUID": "5c2b3a8d-5c4b-4131-be7e-d0bd9f6e26fc",
           "isHook": false,
           "skipped": false
         }
       ],
       "suites": [],
       "passes": [
-        "4bb86dde-f603-43c0-9b7f-92839229199d"
+        "2f2d9e26-2b81-4c9e-9c72-9e463e632dd3"
       ],
       "failures": [],
       "pending": [],
       "skipped": [],
-      "duration": 385,
+      "duration": 426,
       "root": true,
       "rootEmpty": false,
       "_timeout": 2000

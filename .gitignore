@@ -8,3 +8,5 @@ test-output/
 .env
 npm-debug.log*
 /cypress/videos
+cypress/report/
+/mochawesome-report

@@ -2,7 +2,7 @@
     "baseUrl": "https://www.networksolutions.com/",
     "chromeWebSecurity": false,
     "pageLoadTimeout": 60000,
-    "video": true,
+    "video": false,
     "viewportHeight": 1000,
     "viewportWidth": 1620,
     "watchForFileChanges": false,
@@ -16,7 +16,9 @@
             "overwrite": false,
             "html": false,
             "json": true,
-            "timestamp": "mmddyyyy_HHMMss"
+            "timestamp": "mmddyyyy_HHMMss",
+            "includeScreenshots": true,
+                "screenshotUseRelativePath": true
         }
     }
     

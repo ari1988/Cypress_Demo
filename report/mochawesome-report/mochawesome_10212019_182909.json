@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 3,
     "failures": 0,
-    "start": "2019-10-21T12:39:24.654Z",
-    "end": "2019-10-21T12:39:24.679Z",
-    "duration": 25,
+    "start": "2019-10-21T12:59:09.128Z",
+    "end": "2019-10-21T12:59:09.163Z",
+    "duration": 35,
     "testsRegistered": 3,
     "passPercent": null,
     "pendingPercent": 100,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "9b213b03-18b2-43ee-8a9e-0aece483bd4f",
+      "uuid": "8734e356-b84b-4591-9338-76a5e8f998fb",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "f53531ea-3b50-4d10-9f52-9abb56849127",
+          "uuid": "219850d6-d3f3-4e4f-a569-99eaffbe6ec9",
           "title": "Search For a Domain",
           "fullFile": "",
           "file": "",
@@ -47,8 +47,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "d93c215d-586b-4736-9b8b-353bf7740111",
-              "parentUUID": "f53531ea-3b50-4d10-9f52-9abb56849127",
+              "uuid": "8c8a97f1-5582-4524-ae65-c4d7bfcb9f02",
+              "parentUUID": "219850d6-d3f3-4e4f-a569-99eaffbe6ec9",
               "isHook": false,
               "skipped": false
             },
@@ -65,8 +65,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "a5b76526-d9fa-4210-b92d-ee839da3d2a3",
-              "parentUUID": "f53531ea-3b50-4d10-9f52-9abb56849127",
+              "uuid": "37684081-30de-4752-bc2e-6eaea978cc9b",
+              "parentUUID": "219850d6-d3f3-4e4f-a569-99eaffbe6ec9",
               "isHook": false,
               "skipped": false
             },
@@ -83,8 +83,8 @@
               "context": null,
               "code": "",
               "err": {},
-              "uuid": "e87f9783-aebd-493e-a430-006177ec847c",
-              "parentUUID": "f53531ea-3b50-4d10-9f52-9abb56849127",
+              "uuid": "4e1d495f-6e4a-4fc4-984d-860b0fee7c0f",
+              "parentUUID": "219850d6-d3f3-4e4f-a569-99eaffbe6ec9",
               "isHook": false,
               "skipped": false
             }
@@ -93,9 +93,9 @@
           "passes": [],
           "failures": [],
           "pending": [
-            "d93c215d-586b-4736-9b8b-353bf7740111",
-            "a5b76526-d9fa-4210-b92d-ee839da3d2a3",
-            "e87f9783-aebd-493e-a430-006177ec847c"
+            "8c8a97f1-5582-4524-ae65-c4d7bfcb9f02",
+            "37684081-30de-4752-bc2e-6eaea978cc9b",
+            "4e1d495f-6e4a-4fc4-984d-860b0fee7c0f"
           ],
           "skipped": [],
           "duration": 0,
@@ -137,7 +137,9 @@
         "overwrite": false,
         "html": false,
         "json": true,
-        "timestamp": "mmddyyyy_HHMMss"
+        "timestamp": "mmddyyyy_HHMMss",
+        "includeScreenshots": true,
+        "screenshotUseRelativePath": true
       },
       "version": "4.0.1"
     }

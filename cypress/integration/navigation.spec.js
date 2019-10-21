@@ -2,7 +2,7 @@
 const userData = require('../fixtures/UserDetails.json')
 
 describe('Search For a Domain',() => {
-    it('Navigates to Network Solutions site', () => {
+    it.skip('Navigates to Network Solutions site', () => {
         cy.clearCookies();
         cy.visit("/");
         Cypress.on('uncaught:exception', (err, runnable) => {
@@ -12,7 +12,7 @@ describe('Search For a Domain',() => {
     
     });
 
-    it('Creates a New User',() => {
+    it.skip('Creates a New User',() => {
         cy.get('ul#navAM a').last().click()
         cy.get('a:contains("Create New User")').click()
         cy.get('[name="sfUser.userLoginName"]').type(userData.firstName + userData.lastName + Date.now())
@@ -25,7 +25,7 @@ describe('Search For a Domain',() => {
         
     });
 
-    it('Set Up New user', () => {
+    it.skip('Set Up New user', () => {
         cy.get('[name = "sfUser.firstName"]').type(userData.firstName)
         cy.get('[name="sfUser.lastName"]').type(userData.lastName)
         cy.get('[name="sfUser.streetAddress"]').type(userData.address)

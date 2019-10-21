@@ -1,0 +1,88 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-10-21T12:39:31.100Z",
+    "end": "2019-10-21T12:39:31.155Z",
+    "duration": 55,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d3287bb6-5530-4af4-8c4f-35f7d4597b2e",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "basic verification",
+          "fullTitle": " basic verification",
+          "timedOut": null,
+          "duration": 43,
+          "state": "passed",
+          "speed": "medium",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "var result = userData.find(function (_ref) {\n  var name = _ref.name;\n  return name === 'Leanne Graham';\n});\ncy.log(result.phone);",
+          "err": {},
+          "uuid": "059de517-98d6-4d7c-ad54-540f020bf04d",
+          "parentUUID": "d3287bb6-5530-4af4-8c4f-35f7d4597b2e",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "059de517-98d6-4d7c-ad54-540f020bf04d"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 43,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "3.5.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "report/mochawesome-report",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "4.0.1"
+    }
+  }
+}

@@ -7,3 +7,4 @@ test-output/
 .idea
 .env
 npm-debug.log*
+/reports/mocha/assets

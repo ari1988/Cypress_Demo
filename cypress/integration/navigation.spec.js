@@ -21,7 +21,7 @@ describe('Search For a Domain',() => {
         cy.get('[name="challengeQuestion"]').select(userData.securityQuestion)
         cy.get('[name="sfUser.challengeAnswer"]').type(userData.securityAnswer)
         cy.get('[alt="SAVE"]').click({force:true})
-       
+        cy.log('Testing merge PR')
         
     });
 

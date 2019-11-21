@@ -10,6 +10,6 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v1
         with:
-          run: npm install
-          run1: npm run cy:report
+          run: npm init -y
+          run1: npx cypress run
         

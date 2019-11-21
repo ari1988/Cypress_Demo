@@ -11,5 +11,5 @@ jobs:
         uses: cypress-io/github-action@v1
         with:
           run: npm install
-          run1: npx cypress run
+          run1: npm run cy:report
         

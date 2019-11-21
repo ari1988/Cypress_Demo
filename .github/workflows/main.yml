@@ -9,3 +9,7 @@ jobs:
 
       - name: Cypress run
         uses: cypress-io/github-action@v1
+        with:
+          run: npm install
+          run1: npx cypress run
+        
